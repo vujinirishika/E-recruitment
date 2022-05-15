@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}

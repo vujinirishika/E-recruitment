@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SARAL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="requirements.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+            <b><i style="font-family: Impact; font-size: larger;">Team SARAL</i></b>
+            </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="about.html">About Us</a></li>
+            <li class="active"><a href="#">Requirements</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+<div class="container">
+    <h1>Search Candidate</h1>
+    <p>Say what you are looking for in a candidate</p><hr>
+
+    <form action="action_page.php">
+        <p>Didn't login? Login <a href="file:///C:/Users/Rishitha/SEProject/login.html">here</a></p>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Qualifications</label>
+      <select id="qualifications" name="qualifications">
+        <option value="frontend">Front-end </option>
+        <option value="mobileEngineering">Mobile Engineering</option>
+        <option value="gamedevelopers">Game Developers</option>
+        <option value="backend">Back-end</option>
+        <option value="appdevelopers">Application Developers</option>
+        <option value="toolsandenterprise">Tools ans Enterprise</option>
+        <option value="QA">Q/A Automation / Testing</option>
+        <option value="softwaredevelopmemet">Software Developers</option>
+        <option value="embedded">Embedded System Developers</option>
+        <option value="fullstack">Full Stack Developers</option>
+        <option value="compiledevelopers">Compile Developers</option>
+        <option value="clouddevelopers">Cloud Developers</option>
+      </select>
+  
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</body>
+</html>
